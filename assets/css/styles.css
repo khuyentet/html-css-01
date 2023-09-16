@@ -11,6 +11,10 @@ body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
 }
+html,
+body {
+    scroll-behavior: smooth;
+}
 /* common */
 .content {
     width: 1111px;
@@ -49,7 +53,8 @@ a {
     display: flex;
     flex-direction: column;
     background: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 90px);
+    justify-content: center;
 }
 .fix-header {
     background: #e6f0ff;
@@ -88,9 +93,6 @@ a {
     padding: 13px 16px;
     margin-left: 18px;
     border-radius: 8px;
-}
-.hero {
-    margin-top: 118px;
 }
 .hero .info {
     width: 50.1%;
