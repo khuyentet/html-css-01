@@ -1,0 +1,14 @@
+{
+    "name": "my-static-website",
+    "version": "1.0.0",
+    "description": "My Static Website",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "engines": {
+        "node": ">=12.0.0"
+    }
+}
